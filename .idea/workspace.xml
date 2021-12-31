@@ -17,16 +17,16 @@
   </component>
   <component name="ProjectId" id="22uWsMsAMPZy8dVrn2vTtOVk0v0" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/gui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api_gui_unit_testing_fw/utils" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../api_gui_unit_testing_fw/utils" />
+      <recent name="$PROJECT_DIR$/../api_gui_unit_testing_fw/tests/api/testcases" />
       <recent name="$PROJECT_DIR$/tests/gui" />
       <recent name="$PROJECT_DIR$/tests/api/testcases" />
       <recent name="$PROJECT_DIR$/utils" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/drivers/chrome/mac" />
@@ -70,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="reqres_api_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="api_gui_unit_testing_fw" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../api_gui_unit_testing_fw/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/logs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../api_gui_unit_testing_fw/utils/reqres_api_utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/gui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../api_gui_unit_testing_fw/tests/gui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/gui/suite.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../api_gui_unit_testing_fw/tests/gui/suite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../api_gui_unit_testing_fw/tests/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/api/suite.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../api_gui_unit_testing_fw/tests/api/suite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_homepage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="api_gui_unit_testing_fw" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/gui/testcases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../api_gui_unit_testing_fw" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/gui/testcases/test_homepage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../api_gui_unit_testing_fw/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,17 +165,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_homepage.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_reqres_api.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="api_gui_unit_testing_fw" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../api_gui_unit_testing_fw/tests/gui/testcases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../api_gui_unit_testing_fw/tests/api/testcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../api_gui_unit_testing_fw/tests/gui/testcases/test_homepage.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../api_gui_unit_testing_fw/tests/api/testcases/test_reqres_api.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -214,10 +214,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.suite (1)" />
-        <item itemvalue="Python tests.Unittests in test_homepage.py" />
-        <item itemvalue="Python.test_homepage" />
-        <item itemvalue="Python.logs" />
         <item itemvalue="Python.suite" />
+        <item itemvalue="Python tests.Unittests in test_reqres_api.py" />
+        <item itemvalue="Python.reqres_api_utils" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>

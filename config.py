@@ -1,4 +1,5 @@
-star_data_endpoint = 'https://ssd-api.jpl.nasa.gov/fireball.api'
+reqres_url = 'https://reqres.in/'
+reqres_users_path_param = 'api/users'
 app_url = 'https://blazedemo.com/'
 
 

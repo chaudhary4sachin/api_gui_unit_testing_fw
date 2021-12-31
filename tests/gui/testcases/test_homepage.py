@@ -1,3 +1,4 @@
+from selenium.webdriver.chrome.options import Options
 import config
 import unittest
 from selenium.webdriver.chrome.service import Service
@@ -11,7 +12,16 @@ class TestHomepage(unittest.TestCase):
     def setUpClass(cls):
         ser = Service(executable_path=r"/Users/sachinchaudhary/PycharmProjects/api_gui_unit_testing_fw/drivers/"
                                       r"chrome/mac/chromedriver")
-        cls.driver = webdriver.Chrome(service=ser)
+        options = Options()
+        options.add_argument("--headless")
+        options.add_argument("window-size=1400,1500")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--no-sandbox")
+        options.add_argument("start-maximized")
+        options.add_argument("enable-automation")
+        options.add_argument("--disable-infobars")
+        options.add_argument("--disable-dev-shm-usage")
+        cls.driver = webdriver.Chrome(service=ser, options=options)
         cls.driver.get(url=config.app_url)
         cls.driver.maximize_window()
         cls.homepage = HomePage(cls.driver)

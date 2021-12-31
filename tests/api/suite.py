@@ -1,8 +1,8 @@
 import unittest
-from testcases.test_api_response import TestApi
+from tests.api.testcases.test_reqres_api import TestReqResApi
 
 #Load test cases from the test class
-api_tests = unittest.TestLoader().loadTestsFromTestCase(TestApi)
+api_tests = unittest.TestLoader().loadTestsFromTestCase(TestReqResApi)
 
 #Add test cases to the test suite
 api_suite = unittest.TestSuite([api_tests])
