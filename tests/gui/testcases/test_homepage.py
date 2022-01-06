@@ -10,8 +10,7 @@ class TestHomepage(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        ser = Service(executable_path=r"/Users/sachinchaudhary/PycharmProjects/api_gui_unit_testing_fw/drivers/"
-                                      r"chrome/mac/chromedriver")
+        ser = Service(executable_path=r"../../../drivers/chrome/mac/chromedriver")
         options = Options()
         options.add_argument("--headless")
         options.add_argument("window-size=1400,1500")
