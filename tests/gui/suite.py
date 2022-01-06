@@ -1,5 +1,6 @@
-import unittest
-from testcases.test_homepage import TestHomepage
+import unittest,sys, os
+sys.path.append(os.path.abspath(os.path.curdir))
+from tests.gui.testcases.test_homepage import TestHomepage
 
 #Load test cases from the test class
 gui_tests = unittest.TestLoader().loadTestsFromTestCase(TestHomepage)

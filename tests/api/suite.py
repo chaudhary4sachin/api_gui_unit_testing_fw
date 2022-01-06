@@ -1,4 +1,5 @@
-import unittest
+import unittest, sys, os
+sys.path.append(os.path.abspath(os.path.curdir))
 from tests.api.testcases.test_reqres_api import TestReqResApi
 
 #Load test cases from the test class
